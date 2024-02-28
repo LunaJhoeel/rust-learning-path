@@ -1,6 +1,6 @@
 fn main(){
     // Declare a var
-    let a_number;
+    let mut a_number;
 
     // Declare a second var and bind a value
     let a_word = "Ten";
@@ -15,5 +15,12 @@ fn main(){
     println!(
         "The word is {}",
         a_word
+    );
+
+    // Change the value of an immutable variable
+    a_number = 15;
+    println!(
+        "The number is {}",
+        a_number
     );
 }
